@@ -1,0 +1,9 @@
+SELECT*FROM FİLM
+WHERE replacement cost  BETWEEN 12.99 AND 16.99;
+
+SELECT first_name ,last_name FROM ACTOR
+Where first_name In('Penelope','Nick','Ed' );
+
+
+SELECT*FROM FİLM
+Where rental_rate  In(0.99, 2.99, 4.99) And  replacement_cost In (12.99, 15.99, 28.99 );
